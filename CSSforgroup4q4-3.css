@@ -1,0 +1,91 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+    body {
+        height: 100vh;
+        background: linear-gradient(
+            to top,
+            rgb(65, 67, 68) 0%,
+            rgb(65, 67, 68) 20%,
+            rgb(255, 255, 255) 20%,
+            rgb(255, 255, 255) 100%
+        );
+    }
+
+    .btn {
+      background-color: rgb(65, 67, 68); 
+      border: none;
+      color: rgb(255, 255, 255);
+      padding: 20px;
+      width: 130px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 20px;
+      font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+      font-weight: bold;
+      position: relative;
+      left: 50px;
+      top: 200px;
+      text-transform: uppercase;
+      border-radius: 5px;
+      cursor: pointer;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      -webkit-transition-property: box-shadpw, transition;
+      transition-property: box-shadpw, transition;
+    }
+    
+    .btn:hover, .btn:focus, .btn:active{
+      box-shadow: 0 0 20px  rgba(0, 0, 0, 0.5);
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+    color: rgb(24, 174, 229);
+  }
+
+h1 {
+  font-size: 64px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-weight: bolder;   
+  text-align: center;
+  position: relative;
+  top: 0px;
+}
+
+p {
+    font-size: 28px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: justify;
+    position: absolute;
+    left: 245px;
+    top: 200px;
+    width: 23cm;
+    overflow-wrap: break-word;
+}
+
+.img-5-whys {
+  width: 700px;
+  position: absolute;
+  top: 310px;
+
+}
+
+.img-Mindmap {
+  width: 700px;
+  position: absolute;
+  top: 700px;
+}
+
+.img-Starburst {
+  width: 700px;
+  position: absolute;
+  top: 1100px;
+}
+
+.img-Fishbone {
+  width: 700px;
+  position: absolute;
+  top: 1500px;
+}
